@@ -42,5 +42,19 @@ Use Case 2:
 Demonstrate dynamic inference, dynamic typing using with fee by applying .18 gst  and prove strongly typing character also by operating it with Eighteen percent gst
 
 fee = 45000
+fee = 45000
+gst = 0.18
+print(type(fee))
+print(type(gst))
+total = fee + (fee * gst)
+print("Total fee including GST is:", total)
+print(type(total))
+
+E. Variables Naming Conventions
+Use Case 1:
+Identify which variable names below are invalid for Inceptez’s student database:
+
+
+
 
 
